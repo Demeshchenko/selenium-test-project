@@ -6,8 +6,9 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C://Users//Verzar-folder//Documents//selenium-test-project//Features//Saucedemo.feature",
-        glue = "stepdefinitions")
+@CucumberOptions(features = "Features/Saucedemo.feature",
+        glue = "stepdefinitions",
+        plugin = { "pretty" } )
 
 public class TestRunner {
 //run
