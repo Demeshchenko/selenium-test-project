@@ -1,0 +1,5 @@
+saucedemo\step\LoginStep.class
+saucedemo\page\LoginPage.class
+saucedemo\stepdefenition\common\GetPropertyValues.class
+saucedemo\stepdefenition\login\LoginStepDefinition.class
+saucedemo\step\CommonStep.class
