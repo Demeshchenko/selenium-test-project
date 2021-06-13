@@ -1,4 +1,4 @@
-package stepdefinitions;
+package saucedemo.stepdefenition.common;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ public class GetPropertyValues {
 
     static {
         try {
-            fileInputStream = new FileInputStream("resources/config.properties");
+            fileInputStream = new FileInputStream("C:\\Users\\Verzar-folder\\Documents\\selenium-test-project\\src\\main\\resources\\config.properties");
             PROPERTIES = new Properties();
             PROPERTIES.load(fileInputStream);
         } catch (IOException e) {
